@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+},
+   "extends": [
+            "airbnb-base",
+          "prettier",
+          "prettier/flowtype",
+          "prettier/react",
+          "prettier/standard",
+          "jest-enzyme",
+          "eslint:recommended",
+    "plugin:react/recommended"
+        ],
+    "plugins": ["prettier", "jest"],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+}
